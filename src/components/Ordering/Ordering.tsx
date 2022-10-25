@@ -63,7 +63,7 @@ const Ordering = () => {
           <div className="ordering__form">
             <form method="post" action="script.js">
               <div className="ordering__form-list1">
-                <select className="ordering__form-list1-item" name="" id="">
+                <select className="ordering__form-list1-item" name="select" id="">
                   <option className="ordering__form-list1-item" value="1">
                     Выберите тип системы
                   </option>
@@ -93,6 +93,7 @@ const Ordering = () => {
                 <input
                   className="ordering__form-list1-item"
                   id="name"
+                  name="name"
                   type="text"
                   required
                   placeholder="Ваше имя"
@@ -127,7 +128,7 @@ const Ordering = () => {
                 </div>
 
                 <div className="ordering__form-list2-flexB">
-                  <input type="file" name="" id=""></input>
+                  <input type="file" name="file" id=""></input>
                 </div>
               </div>
               <input
