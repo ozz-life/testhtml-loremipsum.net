@@ -140,7 +140,10 @@ const Ordering = () => {
                       className="ordering__input ordering__input-file"
                       multiple
                     ></input>
-                    <label htmlFor="ordering__input-file" className="ordering__input-file-button">
+                    <label
+                      htmlFor="ordering__input-file"
+                      className="ordering__input-file-button"
+                    >
                       <span className="ordering__input-file-icon-wrapper">
                         <img
                           className="ordering__input-file-icon"
@@ -154,14 +157,15 @@ const Ordering = () => {
                       </span>
                     </label>
                   </div>
-
                 </div>
               </div>
-              <input
-                className="ordering__form-submit-btn"
-                type="submit"
-                value="ОТПРАВИТЬ"
-              ></input>
+              <div className="ordering__form-submit-btn-wrapper">
+                <input
+                  className="ordering__form-submit-btn"
+                  type="submit"
+                  value="ОТПРАВИТЬ"
+                ></input>
+              </div>
             </form>
           </div>
         </div>
