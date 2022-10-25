@@ -35,7 +35,7 @@
 
   @media (max-width: 750px) {
     font-size: 1.25rem;
-    line-height: 1.510rem;
+    line-height: 1.51rem;
   }
 }
 
@@ -77,17 +77,25 @@
   min-height: 43px;
 
   text-transform: uppercase;
+  cursor: pointer;
   background: #3e9cdc;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 4px;
+  &:hover {
+    background-color: $color-blue3;
+  }
 }
 
 .intro__button-white {
   min-width: 183px;
   min-height: 43px;
   text-transform: uppercase;
+  cursor: pointer;
   background: #ffffff;
   border: 1px solid #6f6d7b;
   border-radius: 4px;
+  &:hover {
+    background-color: $color-gray4;
+  }
 }

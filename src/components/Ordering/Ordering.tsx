@@ -63,7 +63,11 @@ const Ordering = () => {
           <div className="ordering__form">
             <form method="post" action="script.js">
               <div className="ordering__form-list1">
-                <select className="ordering__form-list1-item" name="select" id="">
+                <select
+                  className="ordering__form-list1-item"
+                  name="select"
+                  id=""
+                >
                   <option className="ordering__form-list1-item" value="1">
                     Выберите тип системы
                   </option>
@@ -128,7 +132,29 @@ const Ordering = () => {
                 </div>
 
                 <div className="ordering__form-list2-flexB">
-                  <input type="file" name="file" id=""></input>
+                  <div className="ordering__input-wrapper">
+                    <input
+                      name="file"
+                      type="file"
+                      id="ordering__input-file"
+                      className="ordering__input ordering__input-file"
+                      multiple
+                    ></input>
+                    <label htmlFor="ordering__input-file" className="ordering__input-file-button">
+                      <span className="ordering__input-file-icon-wrapper">
+                        <img
+                          className="ordering__input-file-icon"
+                          src="./images/icon-file.svg"
+                          alt="Прикрепить файл"
+                          width="25"
+                        />
+                      </span>
+                      <span className="ordering__input-file-button-text">
+                        ПРИКРЕПИТЬ ФАЙЛ
+                      </span>
+                    </label>
+                  </div>
+
                 </div>
               </div>
               <input
