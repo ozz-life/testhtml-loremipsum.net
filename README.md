@@ -13,8 +13,7 @@ yarn dev
 
 ### Исходный макет для выполнения задания:
 
-https://www.figma.com/file/Jrw6yvrpmCRF7dhiXT0421/Тестовое?node-
-id=0%3A1&viewport=536%2C296%2C0.41622135043144226
+https://www.figma.com/file/Jrw6yvrpmCRF7dhiXT0421/Тестовое?node-id=0%3A1&viewport=536%2C296%2C0.41622135043144226
 
 ### Требования к заданию:
 
